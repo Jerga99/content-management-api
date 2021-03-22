@@ -50,6 +50,12 @@ app.patch("/api/resources/:id", (req, res) => {
   })
 })
 
+app.get("/api/activeresource", (req, res) => {
+  const resources = getResources();
+  const activeResource = resources.find(resource => resource.status === "active");
+  res.send(activeResource);
+})
+
 app.get("/api/resources", (req, res) => {
   const resources = getResources();
   res.send(resources);
