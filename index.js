@@ -26,8 +26,20 @@ app.patch("/api/resources/:id", (req, res) => {
   const resources = getResources();
   const { id } = req.params;
   const index = resources.findIndex(resource => resource.id === id);
+  const activeResource = resources.find(resource => resource.status === "active")
 
   resources[index] = req.body;
+
+  // active resource related functionality
+  if (req.body.status === "active") {
+    if (activeResource) {
+      return res.status(422).send("There is active resource already!");
+    }
+
+    resources[index].status = "active";
+    resources[index].activationTime = new Date();
+  }
+  // active resource related functionality
 
   fs.writeFile(pathToFile, JSON.stringify(resources, null, 2), (error) => {
     if (error) {

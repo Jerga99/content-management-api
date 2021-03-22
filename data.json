@@ -1,16 +1,16 @@
 [
   {
-    "title": "New resource 22 UPDATED",
+    "title": "New resource 22",
     "description": "New resource 22",
     "link": "New resource 22",
     "priority": "1",
     "timeToFinish": "22",
     "createdAt": "2021-03-19T12:14:58.007Z",
-    "status": "inactive",
+    "status": "active",
     "id": "1616156098007"
   },
   {
-    "title": "My super resource",
+    "title": "My super resource UPDATE",
     "description": "My super resource",
     "link": "My super resource",
     "priority": "1",
@@ -20,7 +20,7 @@
     "id": "1616155336038"
   },
   {
-    "title": "Reusable components NEW UPDATE",
+    "title": "Reusable components!!!!!",
     "description": "Reusable components NEW UPDATE",
     "link": "Reusable components NEW UPDATE",
     "priority": "1",
