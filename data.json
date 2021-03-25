@@ -1,122 +1,54 @@
 [
   {
-    "title": "New resource!!!!!!!!!",
-    "description": "New resource 22",
-    "link": "New resource 22",
+    "title": "Learn foreign language ",
+    "description": "Learn German",
+    "link": "placeholder",
     "priority": "1",
     "timeToFinish": "1",
-    "createdAt": "2021-03-19T12:14:58.007Z",
+    "createdAt": "2021-03-24T15:12:57.915Z",
     "status": "complete",
-    "id": "1616156098007",
-    "activationTime": "2021-03-22T13:59:13.396Z"
+    "id": "1616598777915",
+    "activationTime": "2021-03-24T15:13:40.775Z"
   },
   {
-    "title": "My super resource UPDATE",
-    "description": "My super resource",
-    "link": "My super resource",
+    "title": "Learning Javascript language",
+    "description": "Learn modular and singleton design pattern",
+    "link": "some link",
+    "priority": "2",
+    "timeToFinish": "120",
+    "createdAt": "2021-03-19T12:14:58.007Z",
+    "status": "complete",
+    "id": "1616156098007"
+  },
+  {
+    "title": "Read Book",
+    "description": "Read book obout computer architecture",
+    "link": "another link",
     "priority": "1",
-    "timeToFinish": 1,
+    "timeToFinish": 60,
     "createdAt": "2021-03-19T12:02:16.038Z",
-    "status": "inactive",
-    "id": "1616155336038"
+    "status": "active",
+    "id": "1616155336038",
+    "activationTime": "2021-03-24T23:57:20.425Z"
   },
   {
     "title": "Reusable components",
-    "description": "Reusable components NEW UPDATE",
+    "description": "Learn how to create reusable components in Angular",
     "link": "Reusable components NEW UPDATE",
     "priority": "1",
-    "timeToFinish": "1",
+    "timeToFinish": "120",
     "createdAt": "2021-03-19T11:45:29.325Z",
     "status": "inactive",
     "id": "1616154329325"
   },
   {
-    "title": "TESTING REVALIDATE UPDATED!",
-    "description": "Testring redirect",
-    "link": "Testring redirect",
-    "priority": "1",
-    "timeToFinish": 60,
-    "createdAt": "2021-03-18T09:46:54.956Z",
-    "status": "inactive",
-    "id": "1616060814956"
-  },
-  {
-    "title": "Testin save UPDATED!",
-    "description": "Testin save",
+    "title": "Take a nap",
+    "description": "Just take a nap friend, you deserve it!",
     "link": "Testin save",
     "priority": "1",
-    "timeToFinish": 1,
+    "timeToFinish": 60,
     "createdAt": "2021-03-18T09:28:52.036Z",
     "status": "complete",
-    "id": "1616059732036",
-    "activationTime": "2021-03-22T14:33:20.927Z"
-  },
-  {
-    "title": "First data title 2e13123213",
-    "description": "First data desc",
-    "link": "First data link",
-    "priority": "3",
-    "timeToFinish": "160",
-    "createdAt": "2021-03-18T09:20:10.387Z",
-    "status": "active",
-    "id": "1616059210387",
-    "activationTime": "2021-03-22T14:35:43.064Z"
-  },
-  {
-    "id": "1",
-    "title": "Learning Singleton Pattern",
-    "description": "I would like to learn singleton in JS language, it's important for my work",
-    "link": "https://link.com",
-    "priority": 3,
-    "timeToFinish": 120,
-    "status": "inactive"
-  },
-  {
-    "id": "2",
-    "title": "Resource 2",
-    "description": "Resource 2 Desc",
-    "link": "https://link.com",
-    "priority": 2,
-    "timeToFinish": 60,
-    "status": "inactive"
-  },
-  {
-    "id": "3",
-    "title": "Resource 3",
-    "description": "Resource 3 Desc",
-    "link": "https://link.com",
-    "priority": 1,
-    "timeToFinish": 30,
-    "status": "inactive"
-  },
-  {
-    "title": "Meaningful data title",
-    "description": "Meaningful data desc",
-    "link": "just some link",
-    "priority": "1",
-    "timeToFinish": "100",
-    "createdAt": "2021-03-18T09:18:32.613Z",
-    "status": "inactive",
-    "id": "1616059112613"
-  },
-  {
-    "title": "Meaningful data COPY",
-    "description": "Meaningful data COPY",
-    "link": "just some link COPY",
-    "priority": "1",
-    "timeToFinish": "100",
-    "createdAt": "2021-03-18T09:18:32.613Z",
-    "status": "inactive",
-    "id": "new-resource"
-  },
-  {
-    "title": "Fallback false",
-    "description": "Fallback false",
-    "link": "Fallback false",
-    "priority": "1",
-    "timeToFinish": "100",
-    "createdAt": "2021-03-18T09:18:32.613Z",
-    "status": "inactive",
-    "id": "my-new-id"
+    "id": "1616059732036"
   }
 ]
